@@ -1,0 +1,13 @@
+{
+  "id": "alpine-aurora-borealis",
+  "name": "Alpine Aurora Borealis",
+  "description": "Ethereal green and violet aurora dancing over mirror-still glacial waters",
+  "type": "image",
+  "source": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=2560&auto=format&fit=crop&q=90",
+  "preview": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&auto=format&fit=crop&q=80",
+  "author": "NordicVibes",
+  "tags": ["nature", "space", "4K", "minimal"],
+  "downloads": 234,
+  "likes": 67,
+  "createdAt": "2026-09-06T00:00:00Z"
+}
