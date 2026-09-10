@@ -1,6 +1,6 @@
 {
-  "version": 2,
-  "updatedAt": "2026-09-10T21:50:00Z",
+  "version": 3,
+  "updatedAt": "2026-09-10T22:04:00Z",
   "totalWallpapers": 20,
   "wallpapers": [
     {
@@ -12,8 +12,9 @@
       "preview": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&auto=format&fit=crop&q=80",
       "author": "AetherFlow Curated",
       "tags": ["lofi", "anime", "cozy"],
-      "downloads": 348,
-      "likes": 92,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-01T00:00:00Z"
     },
     {
@@ -25,8 +26,9 @@
       "preview": "https://images.unsplash.com/photo-1508739773434-c26b3d09e071?w=800&auto=format&fit=crop&q=80",
       "author": "Yashpreet",
       "tags": ["city", "neon", "dark", "4K"],
-      "downloads": 512,
-      "likes": 140,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-02T00:00:00Z"
     },
     {
@@ -38,8 +40,9 @@
       "preview": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
       "author": "CosmoExplorer",
       "tags": ["space", "nature", "4K", "dark"],
-      "downloads": 289,
-      "likes": 84,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-03T00:00:00Z"
     },
     {
@@ -51,8 +54,9 @@
       "preview": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=800&auto=format&fit=crop&q=80",
       "author": "RetroWaveGuy",
       "tags": ["retro", "neon", "minimal"],
-      "downloads": 421,
-      "likes": 115,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-04T00:00:00Z"
     },
     {
@@ -64,8 +68,9 @@
       "preview": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=800&auto=format&fit=crop&q=80",
       "author": "NeoTokyo",
       "tags": ["city", "dark", "neon"],
-      "downloads": 395,
-      "likes": 98,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-05T00:00:00Z"
     },
     {
@@ -77,8 +82,9 @@
       "preview": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&auto=format&fit=crop&q=80",
       "author": "NordicVibes",
       "tags": ["nature", "space", "4K", "minimal"],
-      "downloads": 234,
-      "likes": 67,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-06T00:00:00Z"
     },
     {
@@ -90,8 +96,9 @@
       "preview": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
       "author": "PrismStudio",
       "tags": ["abstract", "neon", "minimal", "4K"],
-      "downloads": 198,
-      "likes": 53,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-07T00:00:00Z"
     },
     {
@@ -103,8 +110,9 @@
       "preview": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?w=800&auto=format&fit=crop&q=80",
       "author": "StudioInspiration",
       "tags": ["anime", "nature", "lofi", "cozy"],
-      "downloads": 467,
-      "likes": 128,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-08T00:00:00Z"
     },
     {
@@ -116,8 +124,9 @@
       "preview": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
       "author": "CoastalDreams",
       "tags": ["nature", "minimal", "4K"],
-      "downloads": 178,
-      "likes": 45,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-08T06:00:00Z"
     },
     {
@@ -129,21 +138,23 @@
       "preview": "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
       "author": "WoodlandWanderer",
       "tags": ["nature", "dark", "minimal"],
-      "downloads": 203,
-      "likes": 61,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-08T12:00:00Z"
     },
     {
       "id": "lofi-study-girl",
       "name": "Lofi Study Session",
-      "description": "The classic lofi beats to relax/study to livestream — cozy anime desk vibes",
+      "description": "The classic lofi beats to relax/study to livestream \u2014 cozy anime desk vibes",
       "type": "youtube",
       "source": "https://www.youtube.com/watch?v=4xDzrJKXOOY",
       "preview": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
       "author": "LofiArchive",
       "tags": ["lofi", "anime", "cozy"],
-      "downloads": 580,
-      "likes": 156,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-09T00:00:00Z"
     },
     {
@@ -155,34 +166,37 @@
       "preview": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&auto=format&fit=crop&q=80",
       "author": "NightCruiser",
       "tags": ["city", "dark", "neon", "4K"],
-      "downloads": 445,
-      "likes": 112,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-09T06:00:00Z"
     },
     {
       "id": "minimal-gradient-mesh",
-      "name": "Gradient Mesh — Violet & Teal",
+      "name": "Gradient Mesh \u2014 Violet & Teal",
       "description": "Ultra-clean soft gradient mesh background, perfect for minimal desktops",
       "type": "image",
       "source": "https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=2560&auto=format&fit=crop&q=90",
       "preview": "https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=800&auto=format&fit=crop&q=80",
       "author": "MinimalDesk",
       "tags": ["minimal", "abstract", "4K"],
-      "downloads": 312,
-      "likes": 88,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-09T12:00:00Z"
     },
     {
       "id": "rain-window-asmr",
-      "name": "Rain on Window — ASMR",
+      "name": "Rain on Window \u2014 ASMR",
       "description": "Close-up raindrops running down glass with blurred city bokeh behind",
       "type": "youtube",
       "source": "https://www.youtube.com/watch?v=q76bMs-NwRk",
       "preview": "https://images.unsplash.com/photo-1515694346937-94d85e39e29f?w=800&auto=format&fit=crop&q=80",
       "author": "AmbientSounds",
       "tags": ["nature", "cozy", "dark"],
-      "downloads": 265,
-      "likes": 74,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-09T18:00:00Z"
     },
     {
@@ -194,21 +208,23 @@
       "preview": "https://images.unsplash.com/photo-1522383225653-ed111181a951?w=800&auto=format&fit=crop&q=80",
       "author": "SakuraVibes",
       "tags": ["nature", "anime", "minimal"],
-      "downloads": 189,
-      "likes": 56,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T00:00:00Z"
     },
     {
       "id": "fireplace-cozy",
       "name": "Cozy Fireplace Ambience",
-      "description": "Crackling fireplace with warm amber glow — perfect for cold nights and focus work",
+      "description": "Crackling fireplace with warm amber glow \u2014 perfect for cold nights and focus work",
       "type": "youtube",
       "source": "https://www.youtube.com/watch?v=L_LUpnjgPso",
       "preview": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=800&auto=format&fit=crop&q=80",
       "author": "WarmAmbience",
       "tags": ["cozy", "nature", "dark"],
-      "downloads": 334,
-      "likes": 95,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T06:00:00Z"
     },
     {
@@ -220,8 +236,9 @@
       "preview": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
       "author": "AlpinePhotos",
       "tags": ["nature", "minimal", "4K"],
-      "downloads": 156,
-      "likes": 42,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T08:00:00Z"
     },
     {
@@ -233,8 +250,9 @@
       "preview": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&auto=format&fit=crop&q=80",
       "author": "NeonHunter",
       "tags": ["neon", "dark", "city", "4K"],
-      "downloads": 278,
-      "likes": 79,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T10:00:00Z"
     },
     {
@@ -246,8 +264,9 @@
       "preview": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&auto=format&fit=crop&q=80",
       "author": "AnimeVibes",
       "tags": ["anime", "lofi", "city", "cozy"],
-      "downloads": 389,
-      "likes": 103,
+      "featured": false,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T12:00:00Z"
     },
     {
@@ -259,8 +278,9 @@
       "preview": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800&auto=format&fit=crop&q=80",
       "author": "StarChaser",
       "tags": ["space", "nature", "4K", "dark"],
-      "downloads": 410,
-      "likes": 119,
+      "featured": true,
+      "downloads": 0,
+      "likes": 0,
       "createdAt": "2026-09-10T14:00:00Z"
     }
   ]
