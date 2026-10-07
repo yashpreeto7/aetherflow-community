@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-black-hole-lens",
+  "name": "Black Hole Accretion Lens",
+  "description": "Einstein ring gravitational distortion bending galactic photons around a rotating Kerr singularity.",
+  "author": "EventHorizon",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "space",
+  "type": "engine",
+  "engine": "black-hole-lens",
+  "source": "engine:black-hole-lens",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/black-hole-lens.svg",
+  "tags": [
+    "space",
+    "cosmic",
+    "gravity",
+    "dark",
+    "procedural"
+  ],
+  "downloads": 890,
+  "likes": 220,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-10T00:00:00Z"
+}

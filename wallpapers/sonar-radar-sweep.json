@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-sonar-radar-sweep",
+  "name": "Tactical Sonar Radar Sweep",
+  "description": "Military phosphor radar PPI display with 360-degree sweep arm illuminating sonar blips and distance grids.",
+  "author": "SonarOps",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "sonar-radar-sweep",
+  "source": "engine:sonar-radar-sweep",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/sonar-radar.svg",
+  "tags": [
+    "cyberpunk",
+    "military",
+    "radar",
+    "green",
+    "procedural"
+  ],
+  "downloads": 530,
+  "likes": 125,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

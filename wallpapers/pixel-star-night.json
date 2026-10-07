@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-pixel-star-night",
+  "name": "8-Bit Retro Moon & Stars",
+  "description": "Charming pixel-art twilight horizon with pixelated crescent moon, gentle clouds, and twinkling stars.",
+  "author": "ChiptuneDream",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "gaming",
+  "type": "engine",
+  "engine": "pixel-star-night",
+  "source": "engine:pixel-star-night",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/pixel-star-night.svg",
+  "tags": [
+    "gaming",
+    "retro",
+    "pixel",
+    "stars",
+    "8bit",
+    "procedural"
+  ],
+  "downloads": 910,
+  "likes": 240,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-10T00:00:00Z"
+}

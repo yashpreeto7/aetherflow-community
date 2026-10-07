@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-holographic-clock",
+  "name": "Holographic Chrono HUD",
+  "description": "Precision tactical circular chronograph with orbiting second hands, date ring, and telemetry arcs.",
+  "author": "HUDDesignStudio",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "holographic-clock",
+  "source": "engine:holographic-clock",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/holographic-clock.svg",
+  "tags": [
+    "cyberpunk",
+    "hud",
+    "clock",
+    "minimal",
+    "procedural"
+  ],
+  "downloads": 1100,
+  "likes": 280,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

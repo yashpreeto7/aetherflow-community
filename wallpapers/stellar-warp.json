@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-stellar-warp",
+  "name": "Stellar Warp Relativistic",
+  "description": "Hyperspace starfield acceleration with relativistic Doppler shift streaking past the cockpit.",
+  "author": "WarpDriveEng",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "space",
+  "type": "engine",
+  "engine": "stellar-warp",
+  "source": "engine:stellar-warp",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/stellar-warp.svg",
+  "tags": [
+    "space",
+    "stars",
+    "warp",
+    "fast",
+    "procedural"
+  ],
+  "downloads": 780,
+  "likes": 190,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-10T00:00:00Z"
+}

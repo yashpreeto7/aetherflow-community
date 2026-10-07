@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-cassette-tape",
+  "name": "Outrun 80s Cassette Deck",
+  "description": "Vintage clear cassette with rotating gear reels, unspooling magnetic tape, and embedded neon audio waveform.",
+  "author": "CassetteRevival",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "retro",
+  "type": "engine",
+  "engine": "cassette-tape",
+  "source": "engine:cassette-tape",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/cassette-tape.svg",
+  "tags": [
+    "retro",
+    "lofi",
+    "synthwave",
+    "80s",
+    "audio",
+    "procedural"
+  ],
+  "downloads": 1120,
+  "likes": 310,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-20T00:00:00Z"
+}

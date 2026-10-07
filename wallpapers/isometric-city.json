@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-isometric-city",
+  "name": "Isometric Neon Metropolis",
+  "description": "Procedurally illuminated 3D isometric cyber skyscrapers with animated window lights and rooftop beacons.",
+  "author": "PixelArchitect",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "city",
+  "type": "engine",
+  "engine": "isometric-city",
+  "source": "engine:isometric-city",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/isometric-city.svg",
+  "tags": [
+    "retro",
+    "city",
+    "cyberpunk",
+    "isometric",
+    "procedural"
+  ],
+  "downloads": 940,
+  "likes": 250,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-20T00:00:00Z"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-aurora",
+  "name": "Aurora Borealis Dancing",
+  "description": "Luminous electromagnetic curtain waves undulating gracefully over Arctic silhouettes and twinkling star skies.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "nature",
+  "type": "engine",
+  "engine": "aurora",
+  "source": "engine:aurora",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/aurora.svg",
+  "tags": [
+    "nature",
+    "aurora",
+    "green",
+    "peaceful",
+    "procedural"
+  ],
+  "downloads": 1470,
+  "likes": 388,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

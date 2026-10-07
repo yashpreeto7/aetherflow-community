@@ -1,0 +1,28 @@
+{
+  "id": "comm-engine-rainy-window",
+  "name": "Cozy Rainy Window Pane",
+  "description": "Realistic condensation droplets sliding smoothly down cold glass against blurred twilight bokeh streetlamps.",
+  "author": "LofiCafe",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "nature",
+  "type": "engine",
+  "engine": "rainy-window",
+  "source": "engine:rainy-window",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/rainy-window.svg",
+  "tags": [
+    "nature",
+    "rain",
+    "window",
+    "lofi",
+    "peaceful",
+    "droplets",
+    "procedural"
+  ],
+  "downloads": 1350,
+  "likes": 360,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-12T00:00:00Z"
+}

@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="nebula-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#18042b" stop-opacity="1"/>
+      <stop offset="45%" stop-color="#0a0217" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#020006" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="core-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="25%" stop-color="#ec4899" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#8b5cf6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="nebula-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shockwave-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Deep Cosmic Void -->
+  <rect width="100%" height="100%" fill="url(#nebula-bg)"/>
+
+  <!-- Distant Background Nebula Clouds -->
+  <ellipse cx="240" cy="135" rx="200" ry="110" fill="#8b5cf6" opacity="0.15" filter="url(#nebula-blur)"/>
+  <ellipse cx="210" cy="120" rx="140" ry="85" fill="#ec4899" opacity="0.18" filter="url(#nebula-blur)"/>
+  <ellipse cx="270" cy="150" rx="130" ry="75" fill="#00f2fe" opacity="0.12" filter="url(#nebula-blur)"/>
+
+  <!-- Star Dust Field -->
+  <g fill="#ffffff">
+    <circle cx="45" cy="38" r="0.8" opacity="0.6"/>
+    <circle cx="95" cy="82" r="1.1" opacity="0.8"/>
+    <circle cx="68" cy="195" r="0.7" opacity="0.5"/>
+    <circle cx="120" cy="225" r="1.3" opacity="0.75"/>
+    <circle cx="380" cy="45" r="0.9" opacity="0.6"/>
+    <circle cx="435" cy="90" r="1.2" opacity="0.8"/>
+    <circle cx="395" cy="210" r="0.8" opacity="0.5"/>
+    <circle cx="445" cy="235" r="1.4" opacity="0.85"/>
+  </g>
+
+  <!-- Concentric Acoustic Shockwave Rings (Expanding Bass Ripples) -->
+  <circle cx="240" cy="135" r="115" fill="none" stroke="#8b5cf6" stroke-width="1.2" opacity="0.25" stroke-dasharray="8,6"/>
+  <circle cx="240" cy="135" r="92" fill="none" stroke="#ec4899" stroke-width="1.5" opacity="0.45" filter="url(#shockwave-glow)"/>
+  <circle cx="240" cy="135" r="70" fill="none" stroke="#00f2fe" stroke-width="1.8" opacity="0.65" filter="url(#shockwave-glow)"/>
+  <circle cx="240" cy="135" r="48" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.85" filter="url(#shockwave-glow)"/>
+
+  <!-- Warped Orbital Accretion Rings (Tilted 3D Rings) -->
+  <!-- Ring 1 (Tilted -25deg) -->
+  <ellipse cx="240" cy="135" rx="145" ry="38"
+           transform="rotate(-22 240 135)"
+           fill="none" stroke="#00f2fe" stroke-width="2.2" opacity="0.75" filter="url(#shockwave-glow)"/>
+  <ellipse cx="240" cy="135" rx="145" ry="38"
+           transform="rotate(-22 240 135)"
+           fill="none" stroke="#ffffff" stroke-width="0.8" opacity="0.9"/>
+
+  <!-- Ring 2 (Tilted +35deg) -->
+  <ellipse cx="240" cy="135" rx="125" ry="32"
+           transform="rotate(32 240 135)"
+           fill="none" stroke="#ec4899" stroke-width="2" opacity="0.75" filter="url(#shockwave-glow)"/>
+
+  <!-- Orbiting Acoustic Energy Particles -->
+  <g fill="#00f2fe" filter="url(#shockwave-glow)">
+    <circle cx="115" cy="85" r="2.8"/>
+    <circle cx="365" cy="185" r="2.8"/>
+    <circle cx="180" cy="110" r="2.2"/>
+    <circle cx="300" cy="160" r="2.2"/>
+  </g>
+  <g fill="#ec4899" filter="url(#shockwave-glow)">
+    <circle cx="145" cy="185" r="2.5"/>
+    <circle cx="335" cy="85" r="2.5"/>
+    <circle cx="205" cy="165" r="2"/>
+    <circle cx="275" cy="105" r="2"/>
+  </g>
+
+  <!-- Radiating Starburst Acoustic Needles -->
+  <g stroke="#ffffff" stroke-width="1.2" opacity="0.7">
+    <line x1="240" y1="135" x2="240" y2="75"/>
+    <line x1="240" y1="135" x2="240" y2="195"/>
+    <line x1="240" y1="135" x2="180" y2="135"/>
+    <line x1="240" y1="135" x2="300" y2="135"/>
+    <line x1="240" y1="135" x2="198" y2="93"/>
+    <line x1="240" y1="135" x2="282" y2="177"/>
+    <line x1="240" y1="135" x2="198" y2="177"/>
+    <line x1="240" y1="135" x2="282" y2="93"/>
+  </g>
+
+  <!-- Central Singularity Acoustic Core (White-hot glowing epicenter) -->
+  <circle cx="240" cy="135" r="32" fill="url(#core-glow)" filter="url(#nebula-blur)"/>
+  <circle cx="240" cy="135" r="16" fill="#ffffff" filter="url(#shockwave-glow)"/>
+  <circle cx="240" cy="135" r="8" fill="#ffffff"/>
+
+  <!-- Center Core Ring Bezel -->
+  <circle cx="240" cy="135" r="22" fill="none" stroke="#ec4899" stroke-width="1.5" opacity="0.9"/>
+</svg>

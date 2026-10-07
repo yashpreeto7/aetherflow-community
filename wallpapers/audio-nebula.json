@@ -1,0 +1,28 @@
+{
+  "id": "comm-engine-audio-nebula",
+  "name": "Kinetic Audio Singularity",
+  "description": "Pulsing galactic black hole singularity emitting gravitational shockwaves driven by low-frequency acoustic energy.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "space",
+  "type": "engine",
+  "engine": "audio-nebula",
+  "source": "engine:audio-nebula",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/audio-nebula.svg",
+  "tags": [
+    "audio",
+    "music",
+    "reactive",
+    "space",
+    "nebula",
+    "cosmic",
+    "procedural"
+  ],
+  "downloads": 1290,
+  "likes": 320,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

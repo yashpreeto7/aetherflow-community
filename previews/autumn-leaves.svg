@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="autumn-bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2c1008"/>
+      <stop offset="60%" stop-color="#190904"/>
+      <stop offset="100%" stop-color="#0a0301"/>
+    </radialGradient>
+    <filter id="warm-glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#autumn-bg)"/>
+  <!-- Wind Swirl Lines -->
+  <g stroke="#d97706" stroke-width="1" fill="none" opacity="0.25">
+    <path d="M 40 40 Q 180 80 240 140 T 440 220"/>
+    <path d="M 10 120 Q 150 170 290 180 T 460 140"/>
+  </g>
+  <!-- Maple Leaves -->
+  <!-- Leaf 1 (Large Crimson) -->
+  <g transform="translate(160, 110) rotate(-25)" fill="#dc2626" filter="url(#warm-glow)">
+    <path d="M 0 -35 Q 12 -20 22 -28 Q 18 -12 28 -8 Q 15 2 18 18 Q 4 10 0 25 Q -4 10 -18 18 Q -15 2 -28 -8 Q -18 -12 -22 -28 Q -12 -20 0 -35 Z"/>
+    <line x1="0" y1="25" x2="0" y2="35" stroke="#7f1d1d" stroke-width="2"/>
+  </g>
+  <!-- Leaf 2 (Amber Orange) -->
+  <g transform="translate(290, 80) rotate(35)" fill="#ea580c" filter="url(#warm-glow)">
+    <path d="M 0 -28 Q 10 -16 18 -22 Q 14 -10 22 -6 Q 12 2 14 14 Q 3 8 0 20 Q -3 8 -14 14 Q -12 2 -22 -6 Q -14 -10 -18 -22 Q -10 -16 0 -28 Z"/>
+    <line x1="0" y1="20" x2="0" y2="28" stroke="#7c2d12" stroke-width="1.8"/>
+  </g>
+  <!-- Leaf 3 (Golden Yellow) -->
+  <g transform="translate(370, 160) rotate(-15)" fill="#f59e0b">
+    <path d="M 0 -24 Q 9 -14 15 -19 Q 12 -8 19 -5 Q 10 2 12 12 Q 3 7 0 17 Q -3 7 -12 12 Q -10 2 -19 -5 Q -12 -8 -15 -19 Q -9 -14 0 -24 Z"/>
+  </g>
+  <!-- Leaf 4 (Small tumbling) -->
+  <g transform="translate(90, 190) rotate(55)" fill="#e11d48" opacity="0.85">
+    <path d="M 0 -18 Q 7 -10 12 -14 Q 9 -6 14 -4 Q 8 1 9 9 Q 2 5 0 13 Q -2 5 -9 9 Q -8 1 -14 -4 Q -9 -6 -12 -14 Q -7 -10 0 -18 Z"/>
+  </g>
+  <!-- Leaf 5 (Top left) -->
+  <g transform="translate(70, 60) rotate(15)" fill="#ea580c" opacity="0.9">
+    <path d="M 0 -20 Q 8 -12 14 -16 Q 11 -7 16 -4 Q 9 2 11 11 Q 2 6 0 15 Q -2 6 -11 11 Q -9 2 -16 -4 Q -11 -7 -14 -16 Q -8 -12 0 -20 Z"/>
+  </g>
+</svg>

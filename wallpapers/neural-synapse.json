@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-neural-synapse",
+  "name": "Neural Synaptic Cortex",
+  "description": "Biological cognitive network simulation with firing dendrite action potentials and neuro-chemical pulses.",
+  "author": "SynapseAI",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "neural-synapse",
+  "source": "engine:neural-synapse",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/neural-synapse.svg",
+  "tags": [
+    "cyberpunk",
+    "ai",
+    "neural",
+    "purple",
+    "procedural"
+  ],
+  "downloads": 770,
+  "likes": 195,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "comm-engine-audio-waveform",
+  "name": "Cyber Waveform Oscilloscope",
+  "description": "Fluid harmonic ribbon oscilloscope reacting to live desktop audio output with vibrant crest sparks.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "retro",
+  "type": "engine",
+  "engine": "audio-waveform",
+  "source": "engine:audio-waveform",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/audio-waveform.svg",
+  "tags": [
+    "audio",
+    "music",
+    "reactive",
+    "waveform",
+    "cyberpunk",
+    "neon",
+    "procedural"
+  ],
+  "downloads": 1320,
+  "likes": 310,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

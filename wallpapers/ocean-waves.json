@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-ocean-waves",
+  "name": "Moonlit Tidal Ocean Swells",
+  "description": "Harmonic rhythmic tide waves undulating beneath moonlight with glowing foam crests.",
+  "author": "CoastlineAudio",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "nature",
+  "type": "engine",
+  "engine": "ocean-waves",
+  "source": "engine:ocean-waves",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/ocean-waves.svg",
+  "tags": [
+    "nature",
+    "ocean",
+    "waves",
+    "water",
+    "calm",
+    "procedural"
+  ],
+  "downloads": 870,
+  "likes": 230,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-12T00:00:00Z"
+}

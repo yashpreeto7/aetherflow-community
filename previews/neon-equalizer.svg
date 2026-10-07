@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="radial-bg" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#14021d" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#07010c" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#020004" stop-opacity="1"/>
+    </radialGradient>
+    <radialGradient id="radial-core-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#00f2fe" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#ff007f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff007f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="radial-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark Cosmic Tech Backdrop -->
+  <rect width="100%" height="100%" fill="url(#radial-bg)"/>
+
+  <!-- Center Ambient Bloom -->
+  <circle cx="240" cy="135" r="90" fill="#ff007f" opacity="0.12" filter="url(#radial-glow)"/>
+  <circle cx="240" cy="135" r="60" fill="#00f2fe" opacity="0.15" filter="url(#radial-glow)"/>
+
+  <!-- Outer Concentric Reference Circles -->
+  <circle cx="240" cy="135" r="115" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" stroke-dasharray="4,8"/>
+  <circle cx="240" cy="135" r="95" fill="none" stroke="rgba(0, 242, 254, 0.15)" stroke-width="1"/>
+  <circle cx="240" cy="135" r="42" fill="none" stroke="rgba(255, 0, 127, 0.4)" stroke-width="1.5"/>
+
+  <!-- 360-Degree Radial Equalizer Needles (Ray group centered at 240, 135) -->
+  <g stroke-linecap="round">
+    <!-- Cardianls & Intercardinals (High Amplitude / Bass Spikes) -->
+    <!-- Top (0 deg) -->
+    <line x1="240" y1="92" x2="240" y2="35" stroke="#ff007f" stroke-width="3.5" filter="url(#radial-glow)"/>
+    <circle cx="240" cy="28" r="2.5" fill="#ffffff" filter="url(#radial-glow)"/>
+    <!-- Bottom (180 deg) -->
+    <line x1="240" y1="178" x2="240" y2="235" stroke="#ff007f" stroke-width="3.5" filter="url(#radial-glow)"/>
+    <circle cx="240" cy="242" r="2.5" fill="#ffffff" filter="url(#radial-glow)"/>
+    <!-- Left (270 deg) -->
+    <line x1="197" y1="135" x2="135" y2="135" stroke="#00f2fe" stroke-width="3.5" filter="url(#radial-glow)"/>
+    <circle cx="127" cy="135" r="2.5" fill="#ffffff" filter="url(#radial-glow)"/>
+    <!-- Right (90 deg) -->
+    <line x1="283" y1="135" x2="345" y2="135" stroke="#00f2fe" stroke-width="3.5" filter="url(#radial-glow)"/>
+    <circle cx="353" cy="135" r="2.5" fill="#ffffff" filter="url(#radial-glow)"/>
+
+    <!-- Diagonal Spikes (45, 135, 225, 315 deg) -->
+    <line x1="270" y1="105" x2="318" y2="57" stroke="#b400ff" stroke-width="3" filter="url(#radial-glow)"/>
+    <circle cx="323" cy="52" r="2" fill="#ffffff"/>
+    <line x1="270" y1="165" x2="318" y2="213" stroke="#b400ff" stroke-width="3" filter="url(#radial-glow)"/>
+    <circle cx="323" cy="218" r="2" fill="#ffffff"/>
+    <line x1="210" y1="165" x2="162" y2="213" stroke="#b400ff" stroke-width="3" filter="url(#radial-glow)"/>
+    <circle cx="157" cy="218" r="2" fill="#ffffff"/>
+    <line x1="210" y1="105" x2="162" y2="57" stroke="#b400ff" stroke-width="3" filter="url(#radial-glow)"/>
+    <circle cx="157" cy="52" r="2" fill="#ffffff"/>
+
+    <!-- Intermediate Needles (Varied heights simulating live music frequencies) -->
+    <!-- Top-Right Quadrant -->
+    <line x1="251" y1="93" x2="268" y2="45" stroke="#ff007f" stroke-width="2.2"/>
+    <line x1="261" y1="98" x2="292" y2="52" stroke="#ff007f" stroke-width="2"/>
+    <line x1="278" y1="112" x2="330" y2="82" stroke="#00f2fe" stroke-width="2.2"/>
+    <line x1="282" y1="123" x2="342" y2="108" stroke="#00f2fe" stroke-width="2.5"/>
+
+    <!-- Bottom-Right Quadrant -->
+    <line x1="282" y1="147" x2="342" y2="162" stroke="#00f2fe" stroke-width="2.5"/>
+    <line x1="278" y1="158" x2="330" y2="188" stroke="#00f2fe" stroke-width="2.2"/>
+    <line x1="261" y1="172" x2="292" y2="218" stroke="#ff007f" stroke-width="2"/>
+    <line x1="251" y1="177" x2="268" y2="225" stroke="#ff007f" stroke-width="2.2"/>
+
+    <!-- Bottom-Left Quadrant -->
+    <line x1="229" y1="177" x2="212" y2="225" stroke="#ff007f" stroke-width="2.2"/>
+    <line x1="219" y1="172" x2="188" y2="218" stroke="#ff007f" stroke-width="2"/>
+    <line x1="202" y1="158" x2="150" y2="188" stroke="#00f2fe" stroke-width="2.2"/>
+    <line x1="198" y1="147" x2="138" y2="162" stroke="#00f2fe" stroke-width="2.5"/>
+
+    <!-- Top-Left Quadrant -->
+    <line x1="198" y1="123" x2="138" y2="108" stroke="#00f2fe" stroke-width="2.5"/>
+    <line x1="202" y1="112" x2="150" y2="82" stroke="#00f2fe" stroke-width="2.2"/>
+    <line x1="219" y1="98" x2="188" y2="52" stroke="#ff007f" stroke-width="2"/>
+    <line x1="229" y1="93" x2="212" y2="45" stroke="#ff007f" stroke-width="2.2"/>
+  </g>
+
+  <!-- Central Pulsing Core Ring & Beat Aperture -->
+  <circle cx="240" cy="135" r="38" fill="url(#radial-core-grad)"/>
+  <circle cx="240" cy="135" r="28" fill="#07010c"/>
+  <circle cx="240" cy="135" r="28" fill="none" stroke="#00f2fe" stroke-width="2" filter="url(#radial-glow)"/>
+  <circle cx="240" cy="135" r="14" fill="#ffffff" filter="url(#radial-glow)"/>
+  <circle cx="240" cy="135" r="7" fill="#00f2fe"/>
+
+  <!-- Radial Particles (Orbiting frequency sparks) -->
+  <g fill="#00f2fe" opacity="0.85">
+    <circle cx="340" cy="65" r="1.8"/>
+    <circle cx="360" cy="120" r="1.5"/>
+    <circle cx="345" cy="205" r="2"/>
+    <circle cx="130" cy="75" r="1.7"/>
+    <circle cx="120" cy="190" r="2"/>
+    <circle cx="280" cy="25" r="1.5"/>
+  </g>
+  <g fill="#ff007f" opacity="0.85">
+    <circle cx="370" cy="150" r="1.8"/>
+    <circle cx="310" cy="240" r="1.6"/>
+    <circle cx="170" cy="240" r="2"/>
+    <circle cx="105" cy="140" r="1.5"/>
+    <circle cx="150" cy="40" r="1.8"/>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-sakura-fall",
+  "name": "Sakura Blossom Wind Drift",
+  "description": "Delicate pink cherry blossom petals gently rotating and fluttering on a warm springtime breeze.",
+  "author": "SakuraDreamer",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "anime",
+  "type": "engine",
+  "engine": "sakura-fall",
+  "source": "engine:sakura-fall",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/sakura-fall.svg",
+  "tags": [
+    "anime",
+    "nature",
+    "sakura",
+    "pink",
+    "peaceful",
+    "procedural"
+  ],
+  "downloads": 1480,
+  "likes": 410,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-12T00:00:00Z"
+}

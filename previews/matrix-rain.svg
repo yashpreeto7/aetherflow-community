@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="matrix-glow" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#003b14" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#021408" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#010703" stop-opacity="1"/>
+    </radialGradient>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#matrix-glow)"/>
+
+  <!-- Matrix Digital Rain Stream Columns -->
+  <!-- Stream 1 -->
+  <g font-family="'Courier New', monospace" font-size="13" font-weight="bold">
+    <text x="24" y="25" fill="#55ff88" opacity="0.2">ﾊ</text>
+    <text x="24" y="42" fill="#00ff41" opacity="0.4">ﾐ</text>
+    <text x="24" y="59" fill="#00ff41" opacity="0.7">ﾋ</text>
+    <text x="24" y="76" fill="#00ff41" opacity="0.9">ｰ</text>
+    <text x="24" y="93" fill="#eaffea" filter="url(#neon-glow)">ｳ</text>
+
+    <!-- Stream 2 -->
+    <text x="56" y="50" fill="#00ff41" opacity="0.15">0</text>
+    <text x="56" y="67" fill="#00ff41" opacity="0.3">ｼ</text>
+    <text x="56" y="84" fill="#00ff41" opacity="0.5">ﾅ</text>
+    <text x="56" y="101" fill="#00ff41" opacity="0.7">ﾓ</text>
+    <text x="56" y="118" fill="#00ff41" opacity="0.85">ﾆ</text>
+    <text x="56" y="135" fill="#ffffff" filter="url(#neon-glow)">ｻ</text>
+
+    <!-- Stream 3 (Long) -->
+    <text x="92" y="15" fill="#00ff41" opacity="0.1">ﾜ</text>
+    <text x="92" y="32" fill="#00ff41" opacity="0.2">ﾂ</text>
+    <text x="92" y="49" fill="#00ff41" opacity="0.35">ｵ</text>
+    <text x="92" y="66" fill="#00ff41" opacity="0.5">ﾘ</text>
+    <text x="92" y="83" fill="#00ff41" opacity="0.65">ｱ</text>
+    <text x="92" y="100" fill="#00ff41" opacity="0.8">ﾎ</text>
+    <text x="92" y="117" fill="#00ff41" opacity="0.95">ﾃ</text>
+    <text x="92" y="134" fill="#ffffff" filter="url(#neon-glow)">ﾏ</text>
+
+    <!-- Stream 4 -->
+    <text x="130" y="80" fill="#00ff41" opacity="0.2">ｹ</text>
+    <text x="130" y="97" fill="#00ff41" opacity="0.4">ﾒ</text>
+    <text x="130" y="114" fill="#00ff41" opacity="0.65">ｴ</text>
+    <text x="130" y="131" fill="#00ff41" opacity="0.85">ｶ</text>
+    <text x="130" y="148" fill="#ffffff" filter="url(#neon-glow)">ｷ</text>
+
+    <!-- Stream 5 -->
+    <text x="168" y="30" fill="#00ff41" opacity="0.2">ﾑ</text>
+    <text x="168" y="47" fill="#00ff41" opacity="0.45">ﾕ</text>
+    <text x="168" y="64" fill="#00ff41" opacity="0.75">ﾗ</text>
+    <text x="168" y="81" fill="#ffffff" filter="url(#neon-glow)">ｾ</text>
+
+    <!-- Stream 6 (Center Stage) -->
+    <text x="210" y="45" fill="#00ff41" opacity="0.15">1</text>
+    <text x="210" y="62" fill="#00ff41" opacity="0.3">0</text>
+    <text x="210" y="79" fill="#00ff41" opacity="0.45">ﾈ</text>
+    <text x="210" y="96" fill="#00ff41" opacity="0.6">ｽ</text>
+    <text x="210" y="113" fill="#00ff41" opacity="0.75">ﾀ</text>
+    <text x="210" y="130" fill="#00ff41" opacity="0.9">ﾇ</text>
+    <text x="210" y="147" fill="#55ff99" opacity="0.95">ﾍ</text>
+    <text x="210" y="164" fill="#ffffff" filter="url(#neon-glow)">ﾎ</text>
+
+    <!-- Stream 7 -->
+    <text x="250" y="90" fill="#00ff41" opacity="0.2">ﾐ</text>
+    <text x="250" y="107" fill="#00ff41" opacity="0.4">ﾋ</text>
+    <text x="250" y="124" fill="#00ff41" opacity="0.65">ｰ</text>
+    <text x="250" y="141" fill="#00ff41" opacity="0.85">ｳ</text>
+    <text x="250" y="158" fill="#ffffff" filter="url(#neon-glow)">ｼ</text>
+
+    <!-- Stream 8 -->
+    <text x="290" y="20" fill="#00ff41" opacity="0.15">ﾅ</text>
+    <text x="290" y="37" fill="#00ff41" opacity="0.35">ﾓ</text>
+    <text x="290" y="54" fill="#00ff41" opacity="0.55">ﾆ</text>
+    <text x="290" y="71" fill="#00ff41" opacity="0.75">ｻ</text>
+    <text x="290" y="88" fill="#00ff41" opacity="0.9">ﾜ</text>
+    <text x="290" y="105" fill="#ffffff" filter="url(#neon-glow)">ﾂ</text>
+
+    <!-- Stream 9 -->
+    <text x="330" y="70" fill="#00ff41" opacity="0.2">ｵ</text>
+    <text x="330" y="87" fill="#00ff41" opacity="0.4">ﾘ</text>
+    <text x="330" y="104" fill="#00ff41" opacity="0.65">ｱ</text>
+    <text x="330" y="121" fill="#00ff41" opacity="0.85">ﾎ</text>
+    <text x="330" y="138" fill="#ffffff" filter="url(#neon-glow)">ﾃ</text>
+
+    <!-- Stream 10 -->
+    <text x="370" y="35" fill="#00ff41" opacity="0.15">ﾏ</text>
+    <text x="370" y="52" fill="#00ff41" opacity="0.35">ｹ</text>
+    <text x="370" y="69" fill="#00ff41" opacity="0.55">ﾒ</text>
+    <text x="370" y="86" fill="#00ff41" opacity="0.75">ｴ</text>
+    <text x="370" y="103" fill="#00ff41" opacity="0.9">ｶ</text>
+    <text x="370" y="120" fill="#ffffff" filter="url(#neon-glow)">ｷ</text>
+
+    <!-- Stream 11 -->
+    <text x="410" y="95" fill="#00ff41" opacity="0.25">ﾑ</text>
+    <text x="410" y="112" fill="#00ff41" opacity="0.5">ﾕ</text>
+    <text x="410" y="129" fill="#00ff41" opacity="0.75">ﾗ</text>
+    <text x="410" y="146" fill="#ffffff" filter="url(#neon-glow)">ｾ</text>
+
+    <!-- Stream 12 -->
+    <text x="448" y="40" fill="#00ff41" opacity="0.2">ﾈ</text>
+    <text x="448" y="57" fill="#00ff41" opacity="0.45">ｽ</text>
+    <text x="448" y="74" fill="#00ff41" opacity="0.7">ﾀ</text>
+    <text x="448" y="91" fill="#ffffff" filter="url(#neon-glow)">ﾇ</text>
+  </g>
+
+  <!-- Ambient Bottom Vignette -->
+  <rect y="200" width="480" height="70" fill="url(#bottom-fade)" opacity="0.8"/>
+  <defs>
+    <linearGradient id="bottom-fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#010703" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#010703" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+</svg>

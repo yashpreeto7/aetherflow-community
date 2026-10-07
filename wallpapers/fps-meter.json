@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-fps-meter",
+  "name": "Cyberpunk Telemetry HUD",
+  "description": "Real-time performance benchmark interface with live frame-time graphs, render latency, and animated tick marks.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "fps-meter",
+  "source": "engine:fps-meter",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/fps-meter.svg",
+  "tags": [
+    "benchmark",
+    "fps",
+    "telemetry",
+    "cyberpunk",
+    "hud",
+    "procedural"
+  ],
+  "downloads": 870,
+  "likes": 195,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

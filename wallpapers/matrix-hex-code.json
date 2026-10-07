@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-matrix-hex-code",
+  "name": "Hex Memory Dump Column",
+  "description": "Low-level virtual machine hexadecimal bytecode memory disassembly streaming downward.",
+  "author": "CyberKernel",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "minimal",
+  "type": "engine",
+  "engine": "matrix-hex-code",
+  "source": "engine:matrix-hex-code",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/matrix-hex-code.svg",
+  "tags": [
+    "cyberpunk",
+    "matrix",
+    "code",
+    "minimal",
+    "terminal",
+    "procedural"
+  ],
+  "downloads": 620,
+  "likes": 155,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

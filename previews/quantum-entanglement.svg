@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <rect width="100%" height="100%" fill="#030717"/>
+  <defs>
+    <filter id="qe-glow"><feGaussianBlur stdDeviation="3.5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Connecting Laser Resonance Arc -->
+  <path d="M 140 135 Q 240 85 340 135" stroke="#00f0ff" stroke-width="2.5" fill="none" filter="url(#qe-glow)"/>
+  <path d="M 140 135 Q 240 185 340 135" stroke="#d946ef" stroke-width="2" fill="none" opacity="0.8" filter="url(#qe-glow)"/>
+  <!-- Particle A (Cyan) -->
+  <circle cx="140" cy="135" r="16" fill="#00f0ff" filter="url(#qe-glow)"/>
+  <circle cx="140" cy="135" r="7" fill="#ffffff"/>
+  <ellipse cx="140" cy="135" rx="30" ry="12" stroke="#00f0ff" stroke-width="1" fill="none" opacity="0.6"/>
+  <!-- Particle B (Magenta) -->
+  <circle cx="340" cy="135" r="16" fill="#d946ef" filter="url(#qe-glow)"/>
+  <circle cx="340" cy="135" r="7" fill="#ffffff"/>
+  <ellipse cx="340" cy="135" rx="30" ry="12" stroke="#d946ef" stroke-width="1" fill="none" opacity="0.6"/>
+</svg>

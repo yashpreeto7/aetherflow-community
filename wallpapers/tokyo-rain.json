@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-tokyo-rain",
+  "name": "Tokyo Neon City Rain",
+  "description": "Atmospheric neo-Tokyo metropolis drenched in torrential rainfall with shimmering puddle reflections.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "city",
+  "type": "engine",
+  "engine": "tokyo-rain",
+  "source": "engine:tokyo-rain",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/tokyo-rain.svg",
+  "tags": [
+    "city",
+    "tokyo",
+    "rain",
+    "anime",
+    "night",
+    "procedural"
+  ],
+  "downloads": 1840,
+  "likes": 512,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

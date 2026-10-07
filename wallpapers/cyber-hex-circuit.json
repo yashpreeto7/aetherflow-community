@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-cyber-hex-circuit",
+  "name": "Cyber Hex PCB Circuit",
+  "description": "High-speed luminous electrons coursing through multi-layer motherboard PCB bus conduits.",
+  "author": "ZeroOneDev",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "cyber-hex-circuit",
+  "source": "engine:cyber-hex-circuit",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/cyber-hex-circuit.svg",
+  "tags": [
+    "cyberpunk",
+    "circuit",
+    "tech",
+    "blue",
+    "procedural"
+  ],
+  "downloads": 640,
+  "likes": 160,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

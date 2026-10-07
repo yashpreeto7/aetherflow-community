@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="sn-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#24072b"/><stop offset="60%" stop-color="#0c0210"/><stop offset="100%" stop-color="#020003"/>
+    </radialGradient>
+    <filter id="sn-glow"><feGaussianBlur stdDeviation="5"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sn-bg)"/>
+  <!-- Shockwave Rings -->
+  <circle cx="240" cy="135" r="95" fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="12,6" opacity="0.6"/>
+  <circle cx="240" cy="135" r="70" fill="none" stroke="#ec4899" stroke-width="3" opacity="0.8" filter="url(#sn-glow)"/>
+  <circle cx="240" cy="135" r="40" fill="none" stroke="#38bdf8" stroke-width="4" filter="url(#sn-glow)"/>
+  <!-- Expanding Gas Filaments -->
+  <g stroke="#f43f5e" stroke-width="2" fill="none" opacity="0.75" filter="url(#sn-glow)">
+    <path d="M 240 135 Q 280 80 340 70"/>
+    <path d="M 240 135 Q 300 170 360 200"/>
+    <path d="M 240 135 Q 180 190 120 210"/>
+    <path d="M 240 135 Q 160 90 100 60"/>
+    <path d="M 240 135 Q 240 60 250 20"/>
+    <path d="M 240 135 Q 230 210 220 250"/>
+  </g>
+  <!-- Blinding Core -->
+  <circle cx="240" cy="135" r="16" fill="#ffffff" filter="url(#sn-glow)"/>
+</svg>

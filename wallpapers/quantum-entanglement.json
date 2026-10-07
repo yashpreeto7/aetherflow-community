@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-quantum-entanglement",
+  "name": "Quantum Entanglement Resonance",
+  "description": "Entangled quantum state pairs maintaining synchronized phase oscillation and radiant photon arcs.",
+  "author": "QuantumWave",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "quantum-entanglement",
+  "source": "engine:quantum-entanglement",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/quantum-entanglement.svg",
+  "tags": [
+    "cyberpunk",
+    "quantum",
+    "physics",
+    "interactive",
+    "procedural"
+  ],
+  "downloads": 590,
+  "likes": 140,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-15T00:00:00Z"
+}

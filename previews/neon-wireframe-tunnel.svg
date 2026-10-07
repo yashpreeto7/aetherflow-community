@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <rect width="100%" height="100%" fill="#080014"/>
+  <g stroke="#b400ff" stroke-width="1.5" fill="none" opacity="0.8">
+    <rect x="20" y="15" width="440" height="240"/>
+    <rect x="70" y="45" width="340" height="180"/>
+    <rect x="130" y="75" width="220" height="120"/>
+    <rect x="190" y="105" width="100" height="60"/>
+    <!-- Vanishing Lines -->
+    <line x1="20" y1="15" x2="240" y2="135"/>
+    <line x1="460" y1="15" x2="240" y2="135"/>
+    <line x1="20" y1="255" x2="240" y2="135"/>
+    <line x1="460" y1="255" x2="240" y2="135"/>
+  </g>
+  <circle cx="240" cy="135" r="4" fill="#00f0ff"/>
+</svg>

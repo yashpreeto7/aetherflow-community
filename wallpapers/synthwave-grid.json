@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-synthwave-grid",
+  "name": "Synthwave Neon Horizon",
+  "description": "Retro 80s outrun perspective wireframe highway with glowing vector sun, horizon mountains, and CRT scanlines.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "retro",
+  "type": "engine",
+  "engine": "synthwave-grid",
+  "source": "engine:synthwave-grid",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/synthwave-grid.svg",
+  "tags": [
+    "retro",
+    "purple",
+    "neon",
+    "synthwave",
+    "80s",
+    "procedural"
+  ],
+  "downloads": 1650,
+  "likes": 420,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <rect width="100%" height="100%" fill="#000803"/>
+  <g font-family="'Courier New', monospace" font-size="12" font-weight="bold">
+    <text x="30" y="40" fill="#00ff41">0x7FFF0010: 4F 6E 65 20 54 65 72 6D</text>
+    <text x="30" y="65" fill="#55ff88">0x7FFF0020: 69 6E 61 6C 20 44 75 6D</text>
+    <text x="30" y="90" fill="#00ff41" opacity="0.85">0x7FFF0030: 70 20 48 65 78 20 4D 65</text>
+    <text x="30" y="115" fill="#00ff41" opacity="0.7">0x7FFF0040: 6D 6F 72 79 20 42 79 74</text>
+    <text x="30" y="140" fill="#00ff41" opacity="0.6">0x7FFF0050: 65 73 20 43 6F 64 65 20</text>
+    <text x="30" y="165" fill="#00ff41" opacity="0.5">0x7FFF0060: 41 65 74 68 65 72 46 6C</text>
+    <text x="30" y="190" fill="#00ff41" opacity="0.4">0x7FFF0070: 6F 77 20 52 75 6E 74 69</text>
+    <text x="30" y="215" fill="#00ff41" opacity="0.3">0x7FFF0080: 6D 65 20 4F 4B 21 0A 00</text>
+    <text x="30" y="240" fill="#ffffff">0x7FFF0090: FF FF FF FF [READY_] _</text>
+  </g>
+</svg>

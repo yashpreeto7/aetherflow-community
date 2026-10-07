@@ -1,0 +1,26 @@
+{
+  "id": "comm-engine-deep-space",
+  "name": "Deep Space Parallax",
+  "description": "Multi-layer starlight field drifting over volumetric interstellar dust clouds and occasional meteor trails.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "space",
+  "type": "engine",
+  "engine": "deep-space",
+  "source": "engine:deep-space",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/deep-space.svg",
+  "tags": [
+    "space",
+    "stars",
+    "dark",
+    "cosmos",
+    "procedural"
+  ],
+  "downloads": 1330,
+  "likes": 310,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

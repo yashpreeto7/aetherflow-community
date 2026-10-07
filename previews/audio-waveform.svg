@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="wave-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#120626" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#070212" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#020006" stop-opacity="1"/>
+    </radialGradient>
+    <filter id="wave-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="crest-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark Cybernetic Void Background -->
+  <rect width="100%" height="100%" fill="url(#wave-bg)"/>
+
+  <!-- Oscilloscope Grid Lines -->
+  <g stroke="rgba(0, 242, 254, 0.08)" stroke-width="1">
+    <line x1="0" y1="45" x2="480" y2="45"/>
+    <line x1="0" y1="90" x2="480" y2="90"/>
+    <line x1="0" y1="135" x2="480" y2="135" stroke="rgba(0, 242, 254, 0.18)" stroke-width="1.2"/>
+    <line x1="0" y1="180" x2="480" y2="180"/>
+    <line x1="0" y1="225" x2="480" y2="225"/>
+
+    <line x1="60" y1="0" x2="60" y2="270"/>
+    <line x1="120" y1="0" x2="120" y2="270"/>
+    <line x1="180" y1="0" x2="180" y2="270"/>
+    <line x1="240" y1="0" x2="240" y2="270" stroke="rgba(0, 242, 254, 0.18)" stroke-width="1.2"/>
+    <line x1="300" y1="0" x2="300" y2="270"/>
+    <line x1="360" y1="0" x2="360" y2="270"/>
+    <line x1="420" y1="0" x2="420" y2="270"/>
+  </g>
+
+  <!-- Ambient Wave Ribbon Glow Cloud (Cyan/Violet) -->
+  <path d="M0,135 Q60,40 120,135 T240,135 T360,135 T480,135 L480,270 L0,270 Z"
+        fill="rgba(0, 242, 254, 0.04)"/>
+  <path d="M0,135 Q60,210 120,135 T240,135 T360,135 T480,135 L480,0 L0,0 Z"
+        fill="rgba(168, 85, 247, 0.04)"/>
+
+  <!-- Harmonic Ribbon 2 (Deep Violet / Hot Pink Strand) -->
+  <path d="M0,135 C30,195 60,225 100,195 C140,165 160,85 200,95 C240,105 270,185 310,180 C350,175 380,80 420,75 C450,70 470,115 480,135"
+        fill="none" stroke="#a855f7" stroke-width="4" stroke-opacity="0.8" filter="url(#wave-glow)"/>
+  <path d="M0,135 C30,195 60,225 100,195 C140,165 160,85 200,95 C240,105 270,185 310,180 C350,175 380,80 420,75 C450,70 470,115 480,135"
+        fill="none" stroke="#ec4899" stroke-width="1.5" stroke-opacity="0.95"/>
+
+  <!-- Harmonic Ribbon 3 (Sub-bass Ambient Ribbon) -->
+  <path d="M0,135 C40,160 80,170 120,135 C160,100 200,150 240,135 C280,120 320,160 360,135 C400,110 440,145 480,135"
+        fill="none" stroke="#3b82f6" stroke-width="2.5" stroke-opacity="0.5" stroke-dasharray="4,6"/>
+
+  <!-- Primary Beam Ribbon 1 (Electric Neon Cyan - Core Waveform) -->
+  <path d="M0,135 C35,70 70,35 110,65 C150,95 170,185 210,175 C250,165 270,75 315,80 C360,85 380,195 425,190 C455,185 470,150 480,135"
+        fill="none" stroke="#00f2fe" stroke-width="5" filter="url(#wave-glow)"/>
+  <path d="M0,135 C35,70 70,35 110,65 C150,95 170,185 210,175 C250,165 270,75 315,80 C360,85 380,195 425,190 C455,185 470,150 480,135"
+        fill="none" stroke="#ffffff" stroke-width="1.8"/>
+
+  <!-- Waveform Crest Sparks (Bright reactive nodes at peaks & intersections) -->
+  <g fill="#ffffff" filter="url(#crest-glow)">
+    <circle cx="85" cy="46" r="3"/>
+    <circle cx="210" cy="175" r="3.5"/>
+    <circle cx="315" cy="80" r="3"/>
+    <circle cx="425" cy="190" r="3.5"/>
+
+    <circle cx="100" cy="195" r="2.8"/>
+    <circle cx="200" cy="95" r="2.8"/>
+    <circle cx="310" cy="180" r="2.8"/>
+    <circle cx="420" cy="75" r="3.2"/>
+  </g>
+
+  <!-- Floating Audio Particle Sparks -->
+  <g fill="#00f2fe" opacity="0.8">
+    <circle cx="78" cy="38" r="1.5"/>
+    <circle cx="95" cy="58" r="1.2"/>
+    <circle cx="115" cy="40" r="1"/>
+    <circle cx="204" cy="188" r="1.4"/>
+    <circle cx="220" cy="165" r="1.2"/>
+    <circle cx="308" cy="70" r="1.5"/>
+    <circle cx="325" cy="92" r="1.1"/>
+    <circle cx="418" cy="202" r="1.4"/>
+    <circle cx="435" cy="178" r="1.2"/>
+  </g>
+  <g fill="#ec4899" opacity="0.8">
+    <circle cx="92" cy="205" r="1.5"/>
+    <circle cx="108" cy="185" r="1.2"/>
+    <circle cx="192" cy="85" r="1.3"/>
+    <circle cx="302" cy="190" r="1.2"/>
+    <circle cx="412" cy="65" r="1.5"/>
+    <circle cx="428" cy="85" r="1.1"/>
+  </g>
+
+  <!-- Oscilloscope Telemetry Overlay -->
+  <g fill="rgba(0, 242, 254, 0.6)" font-family="monospace" font-size="9">
+    <text x="16" y="24">CH1: 2.45 Vpp</text>
+    <text x="16" y="38">FREQ: 440.0 Hz</text>
+    <text x="400" y="24">TIME: 2.0ms</text>
+    <text x="400" y="38">TRIG: AUTO</text>
+  </g>
+</svg>

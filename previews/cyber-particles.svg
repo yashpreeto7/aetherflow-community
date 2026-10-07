@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="cyber-bg" cx="50%" cy="50%" r="75%">
+      <stop offset="0%" stop-color="#071d33"/>
+      <stop offset="60%" stop-color="#030c17"/>
+      <stop offset="100%" stop-color="#01050a"/>
+    </radialGradient>
+    <radialGradient id="node-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#00d4ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00a8ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="p-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="100%" height="100%" fill="url(#cyber-bg)"/>
+
+  <!-- Connecting Vector Lines -->
+  <g stroke="#00d4ff" stroke-width="1.2" opacity="0.38">
+    <line x1="80" y1="70" x2="150" y2="120"/>
+    <line x1="150" y1="120" x2="240" y2="80"/>
+    <line x1="240" y1="80" x2="330" y2="110"/>
+    <line x1="330" y1="110" x2="400" y2="60"/>
+    <line x1="150" y1="120" x2="190" y2="200"/>
+    <line x1="190" y1="200" x2="280" y2="180"/>
+    <line x1="280" y1="180" x2="330" y2="110"/>
+    <line x1="240" y1="80" x2="280" y2="180"/>
+    <line x1="80" y1="70" x2="60" y2="160"/>
+    <line x1="60" y1="160" x2="150" y2="120"/>
+    <line x1="330" y1="110" x2="380" y2="190"/>
+    <line x1="280" y1="180" x2="380" y2="190"/>
+    <line x1="400" y1="60" x2="440" y2="130"/>
+    <line x1="330" y1="110" x2="440" y2="130"/>
+    <line x1="240" y1="80" x2="260" y2="30"/>
+    <line x1="150" y1="120" x2="120" y2="40"/>
+    <line x1="80" y1="70" x2="120" y2="40"/>
+  </g>
+
+  <!-- Secondary Dim Connection Lines -->
+  <g stroke="#0088cc" stroke-width="0.8" opacity="0.22">
+    <line x1="120" y1="40" x2="260" y2="30"/>
+    <line x1="60" y1="160" x2="190" y2="200"/>
+    <line x1="190" y1="200" x2="140" y2="240"/>
+    <line x1="280" y1="180" x2="320" y2="240"/>
+    <line x1="380" y1="190" x2="440" y2="130"/>
+    <line x1="400" y1="60" x2="360" y2="30"/>
+    <line x1="260" y1="30" x2="360" y2="30"/>
+  </g>
+
+  <!-- Interactive Repulsion Halo / Pulse Ring -->
+  <circle cx="240" cy="80" r="45" fill="none" stroke="#00f2fe" stroke-width="1" stroke-dasharray="4,4" opacity="0.35"/>
+  <circle cx="240" cy="80" r="18" fill="#00f2fe" opacity="0.12"/>
+
+  <!-- Glowing Nodes -->
+  <g filter="url(#p-glow)">
+    <circle cx="240" cy="80" r="5" fill="#ffffff"/>
+    <circle cx="150" y="120" r="4.5" fill="#00f2fe"/>
+    <circle cx="330" y="110" r="4.5" fill="#00f2fe"/>
+    <circle cx="280" y="180" r="4" fill="#00f2fe"/>
+    <circle cx="190" y="200" r="3.5" fill="#00d4ff"/>
+    <circle cx="80" cy="70" r="3.5" fill="#00d4ff"/>
+    <circle cx="400" cy="60" r="3.5" fill="#00d4ff"/>
+    <circle cx="380" cy="190" r="3.5" fill="#00d4ff"/>
+    <circle cx="60" cy="160" r="3" fill="#00a8ff"/>
+    <circle cx="440" cy="130" r="3" fill="#00a8ff"/>
+    <circle cx="260" cy="30" r="3" fill="#00a8ff"/>
+    <circle cx="120" cy="40" r="2.5" fill="#0088cc"/>
+    <circle cx="360" cy="30" r="2.5" fill="#0088cc"/>
+    <circle cx="140" cy="240" r="2.5" fill="#0088cc"/>
+    <circle cx="320" cy="240" r="2.5" fill="#0088cc"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270" shape-rendering="crispEdges">
+  <rect width="100%" height="100%" fill="#0a0524"/>
+  <!-- Pixel Crescent Moon -->
+  <g fill="#fef08a" transform="translate(330, 40)">
+    <rect x="16" y="0" width="16" height="8"/>
+    <rect x="8" y="8" width="16" height="8"/>
+    <rect x="0" y="16" width="16" height="16"/>
+    <rect x="8" y="32" width="16" height="8"/>
+    <rect x="16" y="40" width="16" height="8"/>
+  </g>
+  <!-- Pixel Stars -->
+  <g fill="#ffffff">
+    <rect x="60" y="40" width="4" height="4"/>
+    <rect x="140" y="80" width="6" height="6"/><rect x="142" y="76" width="2" height="14"/><rect x="136" y="82" width="14" height="2"/>
+    <rect x="220" y="30" width="4" height="4"/>
+    <rect x="270" y="100" width="5" height="5"/>
+    <rect x="80" y="140" width="4" height="4"/>
+    <rect x="420" y="110" width="6" height="6"/>
+  </g>
+  <!-- 8-Bit Horizon Dither -->
+  <rect x="0" y="240" width="480" height="30" fill="#1e1040"/>
+  <rect x="0" y="255" width="480" height="15" fill="#31176b"/>
+</svg>

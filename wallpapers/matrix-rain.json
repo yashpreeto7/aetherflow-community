@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-matrix-rain",
+  "name": "Matrix Digital Rain",
+  "description": "Cascading phosphorescent katakana data streams with neon trail fades and interactive glyph density.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "matrix-rain",
+  "source": "engine:matrix-rain",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/matrix-rain.svg",
+  "tags": [
+    "dark",
+    "hacker",
+    "matrix",
+    "green",
+    "procedural",
+    "cyberpunk"
+  ],
+  "downloads": 1420,
+  "likes": 384,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

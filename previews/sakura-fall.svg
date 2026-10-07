@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="sakura-bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#2a0c1a"/>
+      <stop offset="60%" stop-color="#16050e"/>
+      <stop offset="100%" stop-color="#080205"/>
+    </radialGradient>
+    <filter id="pink-glow"><feGaussianBlur stdDeviation="2"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#sakura-bg)"/>
+  <!-- Breeze curves -->
+  <g stroke="#f472b6" stroke-width="1" fill="none" opacity="0.2">
+    <path d="M 20 60 Q 150 30 260 110 T 460 170"/>
+    <path d="M 60 180 Q 200 130 310 190 T 440 240"/>
+  </g>
+  <!-- Full Cherry Blossom Flower -->
+  <g transform="translate(180, 120) scale(1.1)" filter="url(#pink-glow)">
+    <g fill="#fbcfe8" opacity="0.95">
+      <ellipse cx="0" cy="-22" rx="9" ry="15"/>
+      <ellipse cx="21" cy="-7" rx="9" ry="15" transform="rotate(72, 21, -7)"/>
+      <ellipse cx="13" cy="18" rx="9" ry="15" transform="rotate(144, 13, 18)"/>
+      <ellipse cx="-13" cy="18" rx="9" ry="15" transform="rotate(216, -13, 18)"/>
+      <ellipse cx="-21" cy="-7" rx="9" ry="15" transform="rotate(288, -21, -7)"/>
+    </g>
+    <circle cx="0" cy="0" r="4.5" fill="#f43f5e"/>
+  </g>
+  <!-- Drifting Petals -->
+  <g fill="#f472b6" opacity="0.9" filter="url(#pink-glow)">
+    <path d="M 310 70 Q 325 55 330 75 Q 320 90 310 70 Z" transform="rotate(25, 310, 70)"/>
+    <path d="M 380 140 Q 395 125 400 145 Q 390 160 380 140 Z" transform="rotate(-40, 380, 140)"/>
+    <path d="M 90 90 Q 105 75 110 95 Q 100 110 90 90 Z" transform="rotate(15, 90, 90)"/>
+    <path d="M 250 200 Q 265 185 270 205 Q 260 220 250 200 Z" transform="rotate(-20, 250, 200)"/>
+    <path d="M 120 210 Q 133 198 137 214 Q 128 227 120 210 Z" transform="rotate(45, 120, 210)"/>
+    <path d="M 420 80 Q 432 68 436 84 Q 427 97 420 80 Z" transform="rotate(-15, 420, 80)"/>
+  </g>
+</svg>

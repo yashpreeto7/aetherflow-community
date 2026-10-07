@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-autumn-leaves",
+  "name": "Autumn Maple Flutter",
+  "description": "Golden amber and crimson maple foliage gently drifting down across a warm morning golden-hour sky.",
+  "author": "KomorebiArt",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "nature",
+  "type": "engine",
+  "engine": "autumn-leaves",
+  "source": "engine:autumn-leaves",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/autumn-leaves.svg",
+  "tags": [
+    "nature",
+    "autumn",
+    "leaves",
+    "warm",
+    "cozy",
+    "procedural"
+  ],
+  "downloads": 820,
+  "likes": 215,
+  "featured": false,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-12T00:00:00Z"
+}

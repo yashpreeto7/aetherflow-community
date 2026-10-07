@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="warp-bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#051226"/>
+      <stop offset="60%" stop-color="#020710"/>
+      <stop offset="100%" stop-color="#000205"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#warp-bg)"/>
+  <g stroke="#7dd3fc" stroke-linecap="round">
+    <!-- Star speed lines radiating from (240, 135) -->
+    <line x1="240" y1="135" x2="40" y2="30" stroke-width="3" stroke="#e0f2fe"/>
+    <line x1="240" y1="135" x2="440" y2="40" stroke-width="2.5" stroke="#bae6fd"/>
+    <line x1="240" y1="135" x2="450" y2="230" stroke-width="3.2" stroke="#e0f2fe"/>
+    <line x1="240" y1="135" x2="30" y2="220" stroke-width="2.8" stroke="#bae6fd"/>
+    <line x1="240" y1="135" x2="140" y2="15" stroke-width="2"/>
+    <line x1="240" y1="135" x2="340" y2="15" stroke-width="2.2"/>
+    <line x1="240" y1="135" x2="130" y2="255" stroke-width="2.1"/>
+    <line x1="240" y1="135" x2="350" y2="255" stroke-width="2.4"/>
+    <line x1="240" y1="135" x2="15" y2="130" stroke-width="3"/>
+    <line x1="240" y1="135" x2="465" y2="135" stroke-width="3.5" stroke="#ffffff"/>
+    <line x1="240" y1="135" x2="80" y2="70" stroke-width="1.8"/>
+    <line x1="240" y1="135" x2="400" y2="80" stroke-width="1.9"/>
+    <line x1="240" y1="135" x2="70" y2="185" stroke-width="1.8"/>
+    <line x1="240" y1="135" x2="410" y2="190" stroke-width="2"/>
+  </g>
+  <circle cx="240" cy="135" r="3" fill="#ffffff"/>
+</svg>

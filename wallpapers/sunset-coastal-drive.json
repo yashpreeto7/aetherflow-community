@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-sunset-coastal-drive",
+  "name": "Sunset Coastal Synth Horizon",
+  "description": "Striped retrowave twilight sun over rolling vector neon waves, cruising toward infinite nostalgic horizon.",
+  "author": "MiamiDrive82",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC BY-NC-ND 4.0",
+  "category": "retro",
+  "type": "engine",
+  "engine": "sunset-coastal-drive",
+  "source": "engine:sunset-coastal-drive",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/sunset-coastal-drive.svg",
+  "tags": [
+    "retro",
+    "synthwave",
+    "sunset",
+    "anime",
+    "outrun",
+    "procedural"
+  ],
+  "downloads": 1250,
+  "likes": 340,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-20T00:00:00Z"
+}

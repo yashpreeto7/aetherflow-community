@@ -1,0 +1,27 @@
+{
+  "id": "comm-engine-quantum-flux",
+  "name": "Quantum Flux Hex Matrix",
+  "description": "Luminous cybernetic hexagonal matrix with interactive quantum energy pulses and high-voltage particle sparks.",
+  "author": "AetherFlow Core",
+  "authorPortfolio": "https://github.com/yashpreeto7/AetherFlow",
+  "license": "CC0 1.0",
+  "category": "cyberpunk",
+  "type": "engine",
+  "engine": "quantum-flux",
+  "source": "engine:quantum-flux",
+  "preview": "https://raw.githubusercontent.com/yashpreeto7/aetherflow-community/main/previews/quantum-flux.svg",
+  "tags": [
+    "cyberpunk",
+    "interactive",
+    "neon",
+    "matrix",
+    "futuristic",
+    "procedural"
+  ],
+  "downloads": 980,
+  "likes": 245,
+  "featured": true,
+  "fileSize": 0,
+  "dimensions": "Vector 60FPS",
+  "createdAt": "2026-09-01T00:00:00Z"
+}

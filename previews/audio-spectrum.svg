@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <defs>
+    <radialGradient id="bg-glow" cx="50%" cy="100%" r="80%">
+      <stop offset="0%" stop-color="#140728" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#080314" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#04020a" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="bar-grad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0.25"/>
+      <stop offset="30%" stop-color="#00d4ff" stop-opacity="0.9"/>
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff2d78" stop-opacity="1"/>
+    </linearGradient>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark Visualizer Void Background -->
+  <rect width="100%" height="100%" fill="url(#bg-glow)"/>
+
+  <!-- Bass Ambient Ground Bloom -->
+  <ellipse cx="240" cy="270" rx="200" ry="60" fill="#00d4ff" opacity="0.12" filter="url(#neon-glow)"/>
+  <ellipse cx="240" cy="270" rx="130" ry="40" fill="#ff2d78" opacity="0.15" filter="url(#neon-glow)"/>
+
+  <!-- Subtle Horizontal Decibel Reference Lines -->
+  <line x1="20" y1="80" x2="460" y2="80" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="3,6"/>
+  <line x1="20" y1="130" x2="460" y2="130" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="3,6"/>
+  <line x1="20" y1="180" x2="460" y2="180" stroke="rgba(255,255,255,0.06)" stroke-width="1" stroke-dasharray="3,6"/>
+
+  <!-- Mirrored Equalizer Bars (40 pairs across 480px width, barW: 8px, gap: 3px) -->
+  <!-- Left Side (Bars 0 to 19: Bass at center 240, Treble at edges) -->
+  <g fill="url(#bar-grad)">
+    <!-- Outer Treble Bars (Left) -->
+    <rect x="22" y="244" width="7" height="24" rx="2"/>
+    <rect x="33" y="238" width="7" height="30" rx="2"/>
+    <rect x="44" y="232" width="7" height="36" rx="2"/>
+    <rect x="55" y="222" width="7" height="46" rx="2"/>
+    <rect x="66" y="210" width="7" height="58" rx="2"/>
+    <rect x="77" y="196" width="7" height="72" rx="2"/>
+    <rect x="88" y="184" width="7" height="84" rx="2"/>
+    <rect x="99" y="170" width="7" height="98" rx="2"/>
+    <rect x="110" y="152" width="7" height="116" rx="2"/>
+    <rect x="121" y="138" width="7" height="130" rx="2"/>
+    <rect x="132" y="122" width="7" height="146" rx="2"/>
+    <rect x="143" y="105" width="7" height="163" rx="2"/>
+    <rect x="154" y="90" width="7" height="178" rx="2"/>
+    <rect x="165" y="78" width="7" height="190" rx="2"/>
+    <rect x="176" y="65" width="7" height="203" rx="2"/>
+    <rect x="187" y="55" width="7" height="213" rx="2"/>
+    <rect x="198" y="48" width="7" height="220" rx="2"/>
+    <rect x="209" y="42" width="7" height="226" rx="2"/>
+    <rect x="220" y="38" width="7" height="230" rx="2"/>
+    <rect x="231" y="35" width="7" height="233" rx="2"/>
+
+    <!-- Right Side (Bars 20 to 39: Bass at center 240, Treble at edges) -->
+    <rect x="242" y="35" width="7" height="233" rx="2"/>
+    <rect x="253" y="38" width="7" height="230" rx="2"/>
+    <rect x="264" y="42" width="7" height="226" rx="2"/>
+    <rect x="275" y="48" width="7" height="220" rx="2"/>
+    <rect x="286" y="55" width="7" height="213" rx="2"/>
+    <rect x="297" y="65" width="7" height="203" rx="2"/>
+    <rect x="308" y="78" width="7" height="190" rx="2"/>
+    <rect x="319" y="90" width="7" height="178" rx="2"/>
+    <rect x="330" y="105" width="7" height="163" rx="2"/>
+    <rect x="341" y="122" width="7" height="146" rx="2"/>
+    <rect x="352" y="138" width="7" height="130" rx="2"/>
+    <rect x="363" y="152" width="7" height="116" rx="2"/>
+    <rect x="374" y="170" width="7" height="98" rx="2"/>
+    <rect x="385" y="184" width="7" height="84" rx="2"/>
+    <rect x="396" y="196" width="7" height="72" rx="2"/>
+    <rect x="407" y="210" width="7" height="58" rx="2"/>
+    <rect x="418" y="222" width="7" height="46" rx="2"/>
+    <rect x="429" y="232" width="7" height="36" rx="2"/>
+    <rect x="440" y="238" width="7" height="30" rx="2"/>
+    <rect x="451" y="244" width="7" height="24" rx="2"/>
+  </g>
+
+  <!-- Glowing Peak Caps (White-hot neon caps hovering above peaks) -->
+  <g fill="#ffffff" filter="url(#neon-glow)">
+    <rect x="22" y="237" width="7" height="2" rx="1"/>
+    <rect x="44" y="224" width="7" height="2" rx="1"/>
+    <rect x="77" y="187" width="7" height="2" rx="1"/>
+    <rect x="110" y="142" width="7" height="2" rx="1"/>
+    <rect x="143" y="94" width="7" height="2" rx="1"/>
+    <rect x="176" y="54" width="7" height="2" rx="1"/>
+    <rect x="209" y="32" width="7" height="2" rx="1"/>
+    <rect x="220" y="27" width="7" height="2" rx="1"/>
+    <rect x="231" y="24" width="7" height="2" rx="1"/>
+    <!-- Center peak glow -->
+    <rect x="242" y="24" width="7" height="2" rx="1"/>
+    <rect x="253" y="27" width="7" height="2" rx="1"/>
+    <rect x="264" y="32" width="7" height="2" rx="1"/>
+    <rect x="297" y="54" width="7" height="2" rx="1"/>
+    <rect x="330" y="94" width="7" height="2" rx="1"/>
+    <rect x="363" y="142" width="7" height="2" rx="1"/>
+    <rect x="396" y="187" width="7" height="2" rx="1"/>
+    <rect x="429" y="224" width="7" height="2" rx="1"/>
+    <rect x="451" y="237" width="7" height="2" rx="1"/>
+  </g>
+
+  <!-- Bottom Baseline Line -->
+  <line x1="0" y1="268" x2="480" y2="268" stroke="#00d4ff" stroke-width="1.5" opacity="0.6"/>
+</svg>

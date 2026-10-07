@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <rect width="100%" height="100%" fill="#05010e"/>
+  <!-- Isometric Cyber Skyscraper 1 (Center) -->
+  <g transform="translate(240, 110)">
+    <!-- Top Face -->
+    <polygon points="0,-40 45,-15 0,10 -45,-15" fill="#a855f7"/>
+    <!-- Left Face -->
+    <polygon points="-45,-15 0,10 0,110 -45,85" fill="#3b0764"/>
+    <!-- Right Face -->
+    <polygon points="0,10 45,-15 45,85 0,110" fill="#6b21a8"/>
+    <!-- Neon Windows -->
+    <g fill="#00f0ff" opacity="0.8">
+      <rect x="-35" y="10" width="8" height="6" transform="skewY(30)"/>
+      <rect x="-20" y="10" width="8" height="6" transform="skewY(30)"/>
+      <rect x="-35" y="35" width="8" height="6" transform="skewY(30)"/>
+      <rect x="15" y="10" width="8" height="6" transform="skewY(-30)"/>
+      <rect x="30" y="10" width="8" height="6" transform="skewY(-30)"/>
+    </g>
+  </g>
+  <!-- Skyscraper 2 (Left) -->
+  <g transform="translate(130, 140)">
+    <polygon points="0,-30 35,-10 0,10 -35,-10" fill="#06b6d4"/>
+    <polygon points="-35,-10 0,10 0,90 -35,70" fill="#0e7490"/>
+    <polygon points="0,10 35,-10 35,70 0,90" fill="#155e75"/>
+  </g>
+  <!-- Skyscraper 3 (Right) -->
+  <g transform="translate(350, 140)">
+    <polygon points="0,-30 35,-10 0,10 -35,-10" fill="#ec4899"/>
+    <polygon points="-35,-10 0,10 0,90 -35,70" fill="#9d174d"/>
+    <polygon points="0,10 35,-10 35,70 0,90" fill="#be185d"/>
+  </g>
+</svg>
