@@ -29,7 +29,9 @@ if (!SUPABASE_SERVICE_ROLE_KEY) {
   process.exit(1)
 }
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
+const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, {
+  auth: { persistSession: false },
+})
 
 async function run() {
   console.log('== AetherFlow Server-Side Wallpaper Archiver ==')
