@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updatedAt": "2026-10-14T11:35:43.950Z",
+  "updatedAt": "2026-10-14T16:35:39.995Z",
   "totalWallpapers": 32,
   "wallpapers": [
     {
@@ -856,6 +856,40 @@
       "fileSize": 0,
       "dimensions": "Vector 60FPS",
       "createdAt": "2026-09-20T00:00:00Z"
+    },
+    {
+      "id": "b9ac6b82-575c-463d-9d4a-c4619f88df14",
+      "name": "gear 56",
+      "title": "gear 56",
+      "description": "<!--aetherflow-meta:{\"author\":\"yashpreet\",\"portfolio\":\"\",\"license\":\"CC BY-NC-ND 4.0\",\"preview\":\"https://img.youtube.com/vi/pUEWTIciMZQ/hqdefault.jpg\",\"type\":\"youtube\",\"fileSize\":0,\"format\":\"\",\"hasAudio\":false,\"duration\":0,\"dimensions\":\"1080p FHD\"}-->",
+      "author": "yashpreet",
+      "authorPortfolio": "",
+      "license": "CC BY-NC-ND 4.0",
+      "type": "youtube",
+      "source": "https://www.youtube.com/watch?v=pUEWTIciMZQ",
+      "preview": "https://img.youtube.com/vi/pUEWTIciMZQ/hqdefault.jpg",
+      "tags": [
+        "anime"
+      ],
+      "downloads": 0,
+      "likes": 0,
+      "createdAt": "2026-10-14T12:33:51.253881+00:00"
+    },
+    {
+      "id": "bc829329-aa9a-44fa-b1b1-4b4554927f6b",
+      "name": "anime girl cozy rain and cat moewalls com",
+      "title": "anime girl cozy rain and cat moewalls com",
+      "description": "\n\n<!--aetherflow-meta:{\"author\":\"moewalls\",\"preview\":\"\",\"portfolio\":\"\",\"license\":\"CC BY-NC-ND 4.0\",\"type\":\"video\",\"format\":\"mp4\",\"hasAudio\":false,\"duration\":17,\"dimensions\":\"2560x1440\",\"fileSize\":41845156}-->",
+      "author": "Community Contributor",
+      "authorPortfolio": "",
+      "license": "CC BY-NC-ND 4.0",
+      "type": "stream",
+      "source": "G:\\aether wallpapers\\anime-girl-cozy-rain-and-cat-moewalls-com.mp4",
+      "preview": "",
+      "tags": [],
+      "downloads": 0,
+      "likes": 0,
+      "createdAt": "2026-10-14T08:48:17.649887+00:00"
     }
   ]
 }
