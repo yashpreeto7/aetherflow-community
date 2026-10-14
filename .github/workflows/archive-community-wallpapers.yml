@@ -1,0 +1,45 @@
+name: Archive Community Wallpapers & Sync Catalog
+
+on:
+  schedule:
+    # Runs every 6 hours automatically to archive any staged media
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Allows 1-click manual trigger anytime from GitHub Actions tab
+  repository_dispatch:
+    types: [new-community-submission]
+
+permissions:
+  contents: write
+
+jobs:
+  archive-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Community Repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: npm install @supabase/supabase-js
+
+      - name: Run Server-Side Archiver
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || 'https://vmuutmdmjjaricfosoqz.supabase.co' }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/archive-media.cjs
+
+      - name: Commit & Push Updated index.json
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add index.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(catalog): auto-sync community wallpapers and takedowns [skip ci]" && git push)
