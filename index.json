@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updatedAt": "2026-10-15T03:19:12.439Z",
+  "updatedAt": "2026-10-15T10:54:14.991Z",
   "totalWallpapers": 32,
   "wallpapers": [
     {
@@ -876,20 +876,23 @@
       "createdAt": "2026-10-14T12:33:51.253881+00:00"
     },
     {
-      "id": "bc829329-aa9a-44fa-b1b1-4b4554927f6b",
-      "name": "anime girl cozy rain and cat moewalls com",
-      "title": "anime girl cozy rain and cat moewalls com",
-      "description": "\n\n<!--aetherflow-meta:{\"author\":\"moewalls\",\"preview\":\"\",\"portfolio\":\"\",\"license\":\"CC BY-NC-ND 4.0\",\"type\":\"video\",\"format\":\"mp4\",\"hasAudio\":false,\"duration\":17,\"dimensions\":\"2560x1440\",\"fileSize\":41845156}-->",
-      "author": "Community Contributor",
+      "id": "9e2e0b39-9439-4ce6-a9e9-751360e1beb9",
+      "name": "goku rose",
+      "title": "goku rose",
+      "description": "<!--aetherflow-meta:{\"author\":\"Manan\",\"portfolio\":\"\",\"license\":\"CC BY-NC-ND 4.0\",\"preview\":\"https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/thumbs/1792055349858_goku_rose_a75y1_thumb.jpg\",\"type\":\"video\",\"fileSize\":23480844,\"format\":\"mp4\",\"hasAudio\":false,\"duration\":16,\"dimensions\":\"3840x2160\"}-->",
+      "author": "Manan",
       "authorPortfolio": "",
       "license": "CC BY-NC-ND 4.0",
-      "type": "stream",
-      "source": "G:\\aether wallpapers\\anime-girl-cozy-rain-and-cat-moewalls-com.mp4",
-      "preview": "",
-      "tags": [],
+      "type": "video",
+      "source": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/public/1792055349858_goku_rose_a75y1.mp4",
+      "preview": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/thumbs/1792055349858_goku_rose_a75y1_thumb.jpg",
+      "tags": [
+        "anime",
+        "4K"
+      ],
       "downloads": 0,
       "likes": 0,
-      "createdAt": "2026-10-14T08:48:17.649887+00:00"
+      "createdAt": "2026-10-15T09:09:26.177312+00:00"
     }
   ]
 }
