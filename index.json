@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updatedAt": "2026-10-24T15:25:29.079Z",
+  "updatedAt": "2026-10-24T20:15:52.760Z",
   "totalWallpapers": 32,
   "wallpapers": [
     {
@@ -893,6 +893,25 @@
       "downloads": 0,
       "likes": 0,
       "createdAt": "2026-10-15T09:09:26.177312+00:00"
+    },
+    {
+      "id": "78ff03ef-df0b-46e4-886b-f3397de4eb02",
+      "name": "ninetails",
+      "title": "ninetails",
+      "description": "<!--aetherflow-meta:{\"author\":\"Manan\",\"portfolio\":\"\",\"license\":\"CC BY-NC-ND 4.0\",\"preview\":\"https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/thumbs/1792055568426_ninetails_wx1vo_thumb.jpg\",\"type\":\"video\",\"fileSize\":45548994,\"format\":\"mp4\",\"hasAudio\":false,\"duration\":28,\"dimensions\":\"3440x1440\"}-->",
+      "author": "Manan",
+      "authorPortfolio": "",
+      "license": "CC BY-NC-ND 4.0",
+      "type": "video",
+      "source": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/public/1792055568426_ninetails_wx1vo.mp4",
+      "preview": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/thumbs/1792055568426_ninetails_wx1vo_thumb.jpg",
+      "tags": [
+        "nature",
+        "4K"
+      ],
+      "downloads": 0,
+      "likes": 0,
+      "createdAt": "2026-10-15T09:13:09.895785+00:00"
     }
   ]
 }
