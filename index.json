@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "updatedAt": "2026-10-24T20:15:52.760Z",
+  "updatedAt": "2026-10-25T03:18:51.022Z",
   "totalWallpapers": 32,
   "wallpapers": [
     {
@@ -903,8 +903,8 @@
       "authorPortfolio": "",
       "license": "CC BY-NC-ND 4.0",
       "type": "video",
-      "source": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/public/1792055568426_ninetails_wx1vo.mp4",
-      "preview": "https://vmuutmdmjjaricfosoqz.supabase.co/storage/v1/object/public/community-uploads/thumbs/1792055568426_ninetails_wx1vo_thumb.jpg",
+      "source": "https://github.com/yashpreeto7/aetherflow-community/releases/download/wallpapers-v1/1792055568426_ninetails_wx1vo.mp4",
+      "preview": "https://github.com/yashpreeto7/aetherflow-community/releases/download/wallpapers-v1/1792055568426_ninetails_wx1vo_thumb.jpg",
       "tags": [
         "nature",
         "4K"
